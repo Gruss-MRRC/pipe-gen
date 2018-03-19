@@ -1,0 +1,16 @@
+{
+  "moduleName": "copyNIFTI_broken",
+  "inputs": [
+    { "name": "fromFile",
+      "format": "NIfTI",
+      "required": true
+    }
+  ],
+  "outputs": [
+    { "name": "toFile",
+      "format": "NIfTI",
+      "required": true
+    }
+  ],
+  "enclosedCommand": "sss {fromFile} {toFile}" 
+}

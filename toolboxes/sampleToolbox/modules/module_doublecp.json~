@@ -1,0 +1,24 @@
+{
+  "moduleName": "double cp",
+  "inputs": [
+    { "name": "fromText_0",
+      "format": "Text",
+      "required": true
+    },
+    { "name": "fromText_1",
+      "format": "Text",
+      "required": true
+    }
+  ],
+  "outputs": [
+    { "name": "toText_0",
+      "format": "Text",
+      "required": true
+    },
+    { "name": "toText_1",
+      "format": "Text",
+      "required": true
+    }
+  ],
+  "enclosedCommand": "cp {fromText_0} {toText_0} ; cp {fromText_1} {toText_1}" 
+}

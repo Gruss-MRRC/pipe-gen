@@ -1,0 +1,188 @@
+cp ./PROCESSING_DIRECTORY/001/3_0.nii.gz ~/dtiFitDummy/data/subject001/results/FA.nii.gz
+cp ./PROCESSING_DIRECTORY/001/3_1.nii.gz ~/dtiFitDummy/data/subject001/results/L1.nii.gz
+cp ./PROCESSING_DIRECTORY/001/3_2.nii.gz ~/dtiFitDummy/data/subject001/results/L2.nii.gz
+cp ./PROCESSING_DIRECTORY/001/3_3.nii.gz ~/dtiFitDummy/data/subject001/results/L3.nii.gz
+cp ./PROCESSING_DIRECTORY/001/3_4.nii.gz ~/dtiFitDummy/data/subject001/results/MD.nii.gz
+cp ./PROCESSING_DIRECTORY/001/3_5.nii.gz ~/dtiFitDummy/data/subject001/results/MO.nii.gz
+cp ./PROCESSING_DIRECTORY/001/3_6.nii.gz ~/dtiFitDummy/data/subject001/results/S0.nii.gz
+cp ./PROCESSING_DIRECTORY/001/3_7.nii.gz ~/dtiFitDummy/data/subject001/results/V1.nii.gz
+cp ./PROCESSING_DIRECTORY/001/3_8.nii.gz ~/dtiFitDummy/data/subject001/results/V2.nii.gz
+cp ./PROCESSING_DIRECTORY/001/3_9.nii.gz ~/dtiFitDummy/data/subject001/results/V3.nii.gz
+/home/stockman/dtiFitDummy/scripts/copyNIFTI_broken.script ~/dtiFitDummy/data/subject001/4_slices.nii.gz ./PROCESSING_DIRECTORY/001/17_0.nii.gz || mkdir -p ./ERROR_LOGS/001/17
+cp ./PROCESSING_DIRECTORY/001/6_1.mat ~/dtiFitDummy/data/subject001/results/M2.mat
+cp ./PROCESSING_DIRECTORY/001/6_0.nii.gz ~/dtiFitDummy/data/subject001/results/Reg12ToTemplate.nii.gz
+cp ./PROCESSING_DIRECTORY/001/7_0.nii.gz ~/dtiFitDummy/data/subject001/results/RegDtiTo12.nii.gz
+cp ./PROCESSING_DIRECTORY/001/7_1.mat ~/dtiFitDummy/data/subject001/results/M3.mat
+cp ./PROCESSING_DIRECTORY/001/9_0.mat ~/dtiFitDummy/data/subject001/results/MatDtiToTemplate.mat
+cp ./PROCESSING_DIRECTORY/002/3_0.nii.gz ~/dtiFitDummy/data/subject002/results/FA.nii.gz
+cp ./PROCESSING_DIRECTORY/002/3_1.nii.gz ~/dtiFitDummy/data/subject002/results/L1.nii.gz
+cp ./PROCESSING_DIRECTORY/002/3_2.nii.gz ~/dtiFitDummy/data/subject002/results/L2.nii.gz
+cp ./PROCESSING_DIRECTORY/002/3_3.nii.gz ~/dtiFitDummy/data/subject002/results/L3.nii.gz
+cp ./PROCESSING_DIRECTORY/002/3_4.nii.gz ~/dtiFitDummy/data/subject002/results/MD.nii.gz
+cp ./PROCESSING_DIRECTORY/002/3_5.nii.gz ~/dtiFitDummy/data/subject002/results/MO.nii.gz
+cp ./PROCESSING_DIRECTORY/002/3_6.nii.gz ~/dtiFitDummy/data/subject002/results/S0.nii.gz
+cp ./PROCESSING_DIRECTORY/002/3_7.nii.gz ~/dtiFitDummy/data/subject002/results/V1.nii.gz
+cp ./PROCESSING_DIRECTORY/002/3_8.nii.gz ~/dtiFitDummy/data/subject002/results/V2.nii.gz
+cp ./PROCESSING_DIRECTORY/002/3_9.nii.gz ~/dtiFitDummy/data/subject002/results/V3.nii.gz
+/home/stockman/dtiFitDummy/scripts/copyNIFTI_broken.script ~/dtiFitDummy/data/subject002/4_slices.nii.gz ./PROCESSING_DIRECTORY/002/17_0.nii.gz || mkdir -p ./ERROR_LOGS/002/17
+cp ./PROCESSING_DIRECTORY/002/6_1.mat ~/dtiFitDummy/data/subject002/results/M2.mat
+cp ./PROCESSING_DIRECTORY/002/6_0.nii.gz ~/dtiFitDummy/data/subject002/results/Reg12ToTemplate.nii.gz
+cp ./PROCESSING_DIRECTORY/002/7_0.nii.gz ~/dtiFitDummy/data/subject002/results/RegDtiTo12.nii.gz
+cp ./PROCESSING_DIRECTORY/002/7_1.mat ~/dtiFitDummy/data/subject002/results/M3.mat
+cp ./PROCESSING_DIRECTORY/002/9_0.mat ~/dtiFitDummy/data/subject002/results/MatDtiToTemplate.mat
+cp ./PROCESSING_DIRECTORY/003/3_0.nii.gz ~/dtiFitDummy/data/subject003/results/FA.nii.gz
+cp ./PROCESSING_DIRECTORY/003/3_1.nii.gz ~/dtiFitDummy/data/subject003/results/L1.nii.gz
+cp ./PROCESSING_DIRECTORY/003/3_2.nii.gz ~/dtiFitDummy/data/subject003/results/L2.nii.gz
+cp ./PROCESSING_DIRECTORY/003/3_3.nii.gz ~/dtiFitDummy/data/subject003/results/L3.nii.gz
+cp ./PROCESSING_DIRECTORY/003/3_4.nii.gz ~/dtiFitDummy/data/subject003/results/MD.nii.gz
+cp ./PROCESSING_DIRECTORY/003/3_5.nii.gz ~/dtiFitDummy/data/subject003/results/MO.nii.gz
+cp ./PROCESSING_DIRECTORY/003/3_6.nii.gz ~/dtiFitDummy/data/subject003/results/S0.nii.gz
+cp ./PROCESSING_DIRECTORY/003/3_7.nii.gz ~/dtiFitDummy/data/subject003/results/V1.nii.gz
+cp ./PROCESSING_DIRECTORY/003/3_8.nii.gz ~/dtiFitDummy/data/subject003/results/V2.nii.gz
+cp ./PROCESSING_DIRECTORY/003/3_9.nii.gz ~/dtiFitDummy/data/subject003/results/V3.nii.gz
+/home/stockman/dtiFitDummy/scripts/copyNIFTI_broken.script ~/dtiFitDummy/data/subject003/4_slices.nii.gz ./PROCESSING_DIRECTORY/003/17_0.nii.gz || mkdir -p ./ERROR_LOGS/003/17
+cp ./PROCESSING_DIRECTORY/003/6_1.mat ~/dtiFitDummy/data/subject003/results/M2.mat
+cp ./PROCESSING_DIRECTORY/003/6_0.nii.gz ~/dtiFitDummy/data/subject003/results/Reg12ToTemplate.nii.gz
+cp ./PROCESSING_DIRECTORY/003/7_0.nii.gz ~/dtiFitDummy/data/subject003/results/RegDtiTo12.nii.gz
+cp ./PROCESSING_DIRECTORY/003/7_1.mat ~/dtiFitDummy/data/subject003/results/M3.mat
+cp ./PROCESSING_DIRECTORY/003/9_0.mat ~/dtiFitDummy/data/subject003/results/MatDtiToTemplate.mat
+cp ./PROCESSING_DIRECTORY/004/3_0.nii.gz ~/dtiFitDummy/data/subject004/results/FA.nii.gz
+cp ./PROCESSING_DIRECTORY/004/3_1.nii.gz ~/dtiFitDummy/data/subject004/results/L1.nii.gz
+cp ./PROCESSING_DIRECTORY/004/3_2.nii.gz ~/dtiFitDummy/data/subject004/results/L2.nii.gz
+cp ./PROCESSING_DIRECTORY/004/3_3.nii.gz ~/dtiFitDummy/data/subject004/results/L3.nii.gz
+cp ./PROCESSING_DIRECTORY/004/3_4.nii.gz ~/dtiFitDummy/data/subject004/results/MD.nii.gz
+cp ./PROCESSING_DIRECTORY/004/3_5.nii.gz ~/dtiFitDummy/data/subject004/results/MO.nii.gz
+cp ./PROCESSING_DIRECTORY/004/3_6.nii.gz ~/dtiFitDummy/data/subject004/results/S0.nii.gz
+cp ./PROCESSING_DIRECTORY/004/3_7.nii.gz ~/dtiFitDummy/data/subject004/results/V1.nii.gz
+cp ./PROCESSING_DIRECTORY/004/3_8.nii.gz ~/dtiFitDummy/data/subject004/results/V2.nii.gz
+cp ./PROCESSING_DIRECTORY/004/3_9.nii.gz ~/dtiFitDummy/data/subject004/results/V3.nii.gz
+/home/stockman/dtiFitDummy/scripts/copyNIFTI_broken.script ~/dtiFitDummy/data/subject004/4_slices.nii.gz ./PROCESSING_DIRECTORY/004/17_0.nii.gz || mkdir -p ./ERROR_LOGS/004/17
+cp ./PROCESSING_DIRECTORY/004/6_1.mat ~/dtiFitDummy/data/subject004/results/M2.mat
+cp ./PROCESSING_DIRECTORY/004/6_0.nii.gz ~/dtiFitDummy/data/subject004/results/Reg12ToTemplate.nii.gz
+cp ./PROCESSING_DIRECTORY/004/7_0.nii.gz ~/dtiFitDummy/data/subject004/results/RegDtiTo12.nii.gz
+cp ./PROCESSING_DIRECTORY/004/7_1.mat ~/dtiFitDummy/data/subject004/results/M3.mat
+cp ./PROCESSING_DIRECTORY/004/9_0.mat ~/dtiFitDummy/data/subject004/results/MatDtiToTemplate.mat
+cp ./PROCESSING_DIRECTORY/005/3_0.nii.gz ~/dtiFitDummy/data/subject005/results/FA.nii.gz
+cp ./PROCESSING_DIRECTORY/005/3_1.nii.gz ~/dtiFitDummy/data/subject005/results/L1.nii.gz
+cp ./PROCESSING_DIRECTORY/005/3_2.nii.gz ~/dtiFitDummy/data/subject005/results/L2.nii.gz
+cp ./PROCESSING_DIRECTORY/005/3_3.nii.gz ~/dtiFitDummy/data/subject005/results/L3.nii.gz
+cp ./PROCESSING_DIRECTORY/005/3_4.nii.gz ~/dtiFitDummy/data/subject005/results/MD.nii.gz
+cp ./PROCESSING_DIRECTORY/005/3_5.nii.gz ~/dtiFitDummy/data/subject005/results/MO.nii.gz
+cp ./PROCESSING_DIRECTORY/005/3_6.nii.gz ~/dtiFitDummy/data/subject005/results/S0.nii.gz
+cp ./PROCESSING_DIRECTORY/005/3_7.nii.gz ~/dtiFitDummy/data/subject005/results/V1.nii.gz
+cp ./PROCESSING_DIRECTORY/005/3_8.nii.gz ~/dtiFitDummy/data/subject005/results/V2.nii.gz
+cp ./PROCESSING_DIRECTORY/005/3_9.nii.gz ~/dtiFitDummy/data/subject005/results/V3.nii.gz
+/home/stockman/dtiFitDummy/scripts/copyNIFTI_broken.script ~/dtiFitDummy/data/subject005/4_slices.nii.gz ./PROCESSING_DIRECTORY/005/17_0.nii.gz || mkdir -p ./ERROR_LOGS/005/17
+cp ./PROCESSING_DIRECTORY/005/6_1.mat ~/dtiFitDummy/data/subject005/results/M2.mat
+cp ./PROCESSING_DIRECTORY/005/6_0.nii.gz ~/dtiFitDummy/data/subject005/results/Reg12ToTemplate.nii.gz
+cp ./PROCESSING_DIRECTORY/005/7_0.nii.gz ~/dtiFitDummy/data/subject005/results/RegDtiTo12.nii.gz
+cp ./PROCESSING_DIRECTORY/005/7_1.mat ~/dtiFitDummy/data/subject005/results/M3.mat
+cp ./PROCESSING_DIRECTORY/005/9_0.mat ~/dtiFitDummy/data/subject005/results/MatDtiToTemplate.mat
+cp ./PROCESSING_DIRECTORY/006/3_0.nii.gz ~/dtiFitDummy/data/subject006/results/FA.nii.gz
+cp ./PROCESSING_DIRECTORY/006/3_1.nii.gz ~/dtiFitDummy/data/subject006/results/L1.nii.gz
+cp ./PROCESSING_DIRECTORY/006/3_2.nii.gz ~/dtiFitDummy/data/subject006/results/L2.nii.gz
+cp ./PROCESSING_DIRECTORY/006/3_3.nii.gz ~/dtiFitDummy/data/subject006/results/L3.nii.gz
+cp ./PROCESSING_DIRECTORY/006/3_4.nii.gz ~/dtiFitDummy/data/subject006/results/MD.nii.gz
+cp ./PROCESSING_DIRECTORY/006/3_5.nii.gz ~/dtiFitDummy/data/subject006/results/MO.nii.gz
+cp ./PROCESSING_DIRECTORY/006/3_6.nii.gz ~/dtiFitDummy/data/subject006/results/S0.nii.gz
+cp ./PROCESSING_DIRECTORY/006/3_7.nii.gz ~/dtiFitDummy/data/subject006/results/V1.nii.gz
+cp ./PROCESSING_DIRECTORY/006/3_8.nii.gz ~/dtiFitDummy/data/subject006/results/V2.nii.gz
+cp ./PROCESSING_DIRECTORY/006/3_9.nii.gz ~/dtiFitDummy/data/subject006/results/V3.nii.gz
+/home/stockman/dtiFitDummy/scripts/copyNIFTI_broken.script ~/dtiFitDummy/data/subject006/4_slices.nii.gz ./PROCESSING_DIRECTORY/006/17_0.nii.gz || mkdir -p ./ERROR_LOGS/006/17
+cp ./PROCESSING_DIRECTORY/006/6_1.mat ~/dtiFitDummy/data/subject006/results/M2.mat
+cp ./PROCESSING_DIRECTORY/006/6_0.nii.gz ~/dtiFitDummy/data/subject006/results/Reg12ToTemplate.nii.gz
+cp ./PROCESSING_DIRECTORY/006/7_0.nii.gz ~/dtiFitDummy/data/subject006/results/RegDtiTo12.nii.gz
+cp ./PROCESSING_DIRECTORY/006/7_1.mat ~/dtiFitDummy/data/subject006/results/M3.mat
+cp ./PROCESSING_DIRECTORY/006/9_0.mat ~/dtiFitDummy/data/subject006/results/MatDtiToTemplate.mat
+cp ./PROCESSING_DIRECTORY/007/3_0.nii.gz ~/dtiFitDummy/data/subject007/results/FA.nii.gz
+cp ./PROCESSING_DIRECTORY/007/3_1.nii.gz ~/dtiFitDummy/data/subject007/results/L1.nii.gz
+cp ./PROCESSING_DIRECTORY/007/3_2.nii.gz ~/dtiFitDummy/data/subject007/results/L2.nii.gz
+cp ./PROCESSING_DIRECTORY/007/3_3.nii.gz ~/dtiFitDummy/data/subject007/results/L3.nii.gz
+cp ./PROCESSING_DIRECTORY/007/3_4.nii.gz ~/dtiFitDummy/data/subject007/results/MD.nii.gz
+cp ./PROCESSING_DIRECTORY/007/3_5.nii.gz ~/dtiFitDummy/data/subject007/results/MO.nii.gz
+cp ./PROCESSING_DIRECTORY/007/3_6.nii.gz ~/dtiFitDummy/data/subject007/results/S0.nii.gz
+cp ./PROCESSING_DIRECTORY/007/3_7.nii.gz ~/dtiFitDummy/data/subject007/results/V1.nii.gz
+cp ./PROCESSING_DIRECTORY/007/3_8.nii.gz ~/dtiFitDummy/data/subject007/results/V2.nii.gz
+cp ./PROCESSING_DIRECTORY/007/3_9.nii.gz ~/dtiFitDummy/data/subject007/results/V3.nii.gz
+/home/stockman/dtiFitDummy/scripts/copyNIFTI_broken.script ~/dtiFitDummy/data/subject007/4_slices.nii.gz ./PROCESSING_DIRECTORY/007/17_0.nii.gz || mkdir -p ./ERROR_LOGS/007/17
+cp ./PROCESSING_DIRECTORY/007/6_1.mat ~/dtiFitDummy/data/subject007/results/M2.mat
+cp ./PROCESSING_DIRECTORY/007/6_0.nii.gz ~/dtiFitDummy/data/subject007/results/Reg12ToTemplate.nii.gz
+cp ./PROCESSING_DIRECTORY/007/7_0.nii.gz ~/dtiFitDummy/data/subject007/results/RegDtiTo12.nii.gz
+cp ./PROCESSING_DIRECTORY/007/7_1.mat ~/dtiFitDummy/data/subject007/results/M3.mat
+cp ./PROCESSING_DIRECTORY/007/9_0.mat ~/dtiFitDummy/data/subject007/results/MatDtiToTemplate.mat
+cp ./PROCESSING_DIRECTORY/008/3_0.nii.gz ~/dtiFitDummy/data/subject008/results/FA.nii.gz
+cp ./PROCESSING_DIRECTORY/008/3_1.nii.gz ~/dtiFitDummy/data/subject008/results/L1.nii.gz
+cp ./PROCESSING_DIRECTORY/008/3_2.nii.gz ~/dtiFitDummy/data/subject008/results/L2.nii.gz
+cp ./PROCESSING_DIRECTORY/008/3_3.nii.gz ~/dtiFitDummy/data/subject008/results/L3.nii.gz
+cp ./PROCESSING_DIRECTORY/008/3_4.nii.gz ~/dtiFitDummy/data/subject008/results/MD.nii.gz
+cp ./PROCESSING_DIRECTORY/008/3_5.nii.gz ~/dtiFitDummy/data/subject008/results/MO.nii.gz
+cp ./PROCESSING_DIRECTORY/008/3_6.nii.gz ~/dtiFitDummy/data/subject008/results/S0.nii.gz
+cp ./PROCESSING_DIRECTORY/008/3_7.nii.gz ~/dtiFitDummy/data/subject008/results/V1.nii.gz
+cp ./PROCESSING_DIRECTORY/008/3_8.nii.gz ~/dtiFitDummy/data/subject008/results/V2.nii.gz
+cp ./PROCESSING_DIRECTORY/008/3_9.nii.gz ~/dtiFitDummy/data/subject008/results/V3.nii.gz
+/home/stockman/dtiFitDummy/scripts/copyNIFTI_broken.script ~/dtiFitDummy/data/subject008/4_slices.nii.gz ./PROCESSING_DIRECTORY/008/17_0.nii.gz || mkdir -p ./ERROR_LOGS/008/17
+cp ./PROCESSING_DIRECTORY/008/6_1.mat ~/dtiFitDummy/data/subject008/results/M2.mat
+cp ./PROCESSING_DIRECTORY/008/6_0.nii.gz ~/dtiFitDummy/data/subject008/results/Reg12ToTemplate.nii.gz
+cp ./PROCESSING_DIRECTORY/008/7_0.nii.gz ~/dtiFitDummy/data/subject008/results/RegDtiTo12.nii.gz
+cp ./PROCESSING_DIRECTORY/008/7_1.mat ~/dtiFitDummy/data/subject008/results/M3.mat
+cp ./PROCESSING_DIRECTORY/008/9_0.mat ~/dtiFitDummy/data/subject008/results/MatDtiToTemplate.mat
+cp ./PROCESSING_DIRECTORY/009/3_0.nii.gz ~/dtiFitDummy/data/subject009/results/FA.nii.gz
+cp ./PROCESSING_DIRECTORY/009/3_1.nii.gz ~/dtiFitDummy/data/subject009/results/L1.nii.gz
+cp ./PROCESSING_DIRECTORY/009/3_2.nii.gz ~/dtiFitDummy/data/subject009/results/L2.nii.gz
+cp ./PROCESSING_DIRECTORY/009/3_3.nii.gz ~/dtiFitDummy/data/subject009/results/L3.nii.gz
+cp ./PROCESSING_DIRECTORY/009/3_4.nii.gz ~/dtiFitDummy/data/subject009/results/MD.nii.gz
+cp ./PROCESSING_DIRECTORY/009/3_5.nii.gz ~/dtiFitDummy/data/subject009/results/MO.nii.gz
+cp ./PROCESSING_DIRECTORY/009/3_6.nii.gz ~/dtiFitDummy/data/subject009/results/S0.nii.gz
+cp ./PROCESSING_DIRECTORY/009/3_7.nii.gz ~/dtiFitDummy/data/subject009/results/V1.nii.gz
+cp ./PROCESSING_DIRECTORY/009/3_8.nii.gz ~/dtiFitDummy/data/subject009/results/V2.nii.gz
+cp ./PROCESSING_DIRECTORY/009/3_9.nii.gz ~/dtiFitDummy/data/subject009/results/V3.nii.gz
+/home/stockman/dtiFitDummy/scripts/copyNIFTI_broken.script ~/dtiFitDummy/data/subject009/4_slices.nii.gz ./PROCESSING_DIRECTORY/009/17_0.nii.gz || mkdir -p ./ERROR_LOGS/009/17
+cp ./PROCESSING_DIRECTORY/009/6_1.mat ~/dtiFitDummy/data/subject009/results/M2.mat
+cp ./PROCESSING_DIRECTORY/009/6_0.nii.gz ~/dtiFitDummy/data/subject009/results/Reg12ToTemplate.nii.gz
+cp ./PROCESSING_DIRECTORY/009/7_0.nii.gz ~/dtiFitDummy/data/subject009/results/RegDtiTo12.nii.gz
+cp ./PROCESSING_DIRECTORY/009/7_1.mat ~/dtiFitDummy/data/subject009/results/M3.mat
+cp ./PROCESSING_DIRECTORY/009/9_0.mat ~/dtiFitDummy/data/subject009/results/MatDtiToTemplate.mat
+cp ./PROCESSING_DIRECTORY/010/3_0.nii.gz ~/dtiFitDummy/data/subject010/results/FA.nii.gz
+cp ./PROCESSING_DIRECTORY/010/3_1.nii.gz ~/dtiFitDummy/data/subject010/results/L1.nii.gz
+cp ./PROCESSING_DIRECTORY/010/3_2.nii.gz ~/dtiFitDummy/data/subject010/results/L2.nii.gz
+cp ./PROCESSING_DIRECTORY/010/3_3.nii.gz ~/dtiFitDummy/data/subject010/results/L3.nii.gz
+cp ./PROCESSING_DIRECTORY/010/3_4.nii.gz ~/dtiFitDummy/data/subject010/results/MD.nii.gz
+cp ./PROCESSING_DIRECTORY/010/3_5.nii.gz ~/dtiFitDummy/data/subject010/results/MO.nii.gz
+cp ./PROCESSING_DIRECTORY/010/3_6.nii.gz ~/dtiFitDummy/data/subject010/results/S0.nii.gz
+cp ./PROCESSING_DIRECTORY/010/3_7.nii.gz ~/dtiFitDummy/data/subject010/results/V1.nii.gz
+cp ./PROCESSING_DIRECTORY/010/3_8.nii.gz ~/dtiFitDummy/data/subject010/results/V2.nii.gz
+cp ./PROCESSING_DIRECTORY/010/3_9.nii.gz ~/dtiFitDummy/data/subject010/results/V3.nii.gz
+/home/stockman/dtiFitDummy/scripts/copyNIFTI_broken.script ~/dtiFitDummy/data/subject010/4_slices.nii.gz ./PROCESSING_DIRECTORY/010/17_0.nii.gz || mkdir -p ./ERROR_LOGS/010/17
+cp ./PROCESSING_DIRECTORY/010/6_1.mat ~/dtiFitDummy/data/subject010/results/M2.mat
+cp ./PROCESSING_DIRECTORY/010/6_0.nii.gz ~/dtiFitDummy/data/subject010/results/Reg12ToTemplate.nii.gz
+cp ./PROCESSING_DIRECTORY/010/7_0.nii.gz ~/dtiFitDummy/data/subject010/results/RegDtiTo12.nii.gz
+cp ./PROCESSING_DIRECTORY/010/7_1.mat ~/dtiFitDummy/data/subject010/results/M3.mat
+cp ./PROCESSING_DIRECTORY/010/9_0.mat ~/dtiFitDummy/data/subject010/results/MatDtiToTemplate.mat
+ln -sf ../.././PROCESSING_DIRECTORY/001/17_0.nii.gz ./PROCESSING_DIRECTORY/001/5_in0.nii.gz
+ln -sf ../.././PROCESSING_DIRECTORY/002/17_0.nii.gz ./PROCESSING_DIRECTORY/002/5_in0.nii.gz
+ln -sf ../.././PROCESSING_DIRECTORY/003/17_0.nii.gz ./PROCESSING_DIRECTORY/003/5_in0.nii.gz
+ln -sf ../.././PROCESSING_DIRECTORY/004/17_0.nii.gz ./PROCESSING_DIRECTORY/004/5_in0.nii.gz
+ln -sf ../.././PROCESSING_DIRECTORY/005/17_0.nii.gz ./PROCESSING_DIRECTORY/005/5_in0.nii.gz
+ln -sf ../.././PROCESSING_DIRECTORY/006/17_0.nii.gz ./PROCESSING_DIRECTORY/006/5_in0.nii.gz
+ln -sf ../.././PROCESSING_DIRECTORY/007/17_0.nii.gz ./PROCESSING_DIRECTORY/007/5_in0.nii.gz
+ln -sf ../.././PROCESSING_DIRECTORY/008/17_0.nii.gz ./PROCESSING_DIRECTORY/008/5_in0.nii.gz
+ln -sf ../.././PROCESSING_DIRECTORY/009/17_0.nii.gz ./PROCESSING_DIRECTORY/009/5_in0.nii.gz
+ln -sf ../.././PROCESSING_DIRECTORY/010/17_0.nii.gz ./PROCESSING_DIRECTORY/010/5_in0.nii.gz
+~/dtiFitDummy/scripts/flirt.script ./PROCESSING_DIRECTORY/001/5_0.nii.gz ./PROCESSING_DIRECTORY/001/5_1.mat ./PROCESSING_DIRECTORY/001/17_0.nii.gz ~/dtiFitDummy/data/subject001/12_slices.nii.gz `cat ./PROCESSING_DIRECTORY/001/15_0` || mkdir -p ./ERROR_LOGS/001/5
+~/dtiFitDummy/scripts/flirt.script ./PROCESSING_DIRECTORY/002/5_0.nii.gz ./PROCESSING_DIRECTORY/002/5_1.mat ./PROCESSING_DIRECTORY/002/17_0.nii.gz ~/dtiFitDummy/data/subject002/12_slices.nii.gz `cat ./PROCESSING_DIRECTORY/002/15_0` || mkdir -p ./ERROR_LOGS/002/5
+~/dtiFitDummy/scripts/flirt.script ./PROCESSING_DIRECTORY/003/5_0.nii.gz ./PROCESSING_DIRECTORY/003/5_1.mat ./PROCESSING_DIRECTORY/003/17_0.nii.gz ~/dtiFitDummy/data/subject003/12_slices.nii.gz `cat ./PROCESSING_DIRECTORY/003/15_0` || mkdir -p ./ERROR_LOGS/003/5
+~/dtiFitDummy/scripts/flirt.script ./PROCESSING_DIRECTORY/004/5_0.nii.gz ./PROCESSING_DIRECTORY/004/5_1.mat ./PROCESSING_DIRECTORY/004/17_0.nii.gz ~/dtiFitDummy/data/subject004/12_slices.nii.gz `cat ./PROCESSING_DIRECTORY/004/15_0` || mkdir -p ./ERROR_LOGS/004/5
+~/dtiFitDummy/scripts/flirt.script ./PROCESSING_DIRECTORY/005/5_0.nii.gz ./PROCESSING_DIRECTORY/005/5_1.mat ./PROCESSING_DIRECTORY/005/17_0.nii.gz ~/dtiFitDummy/data/subject005/12_slices.nii.gz `cat ./PROCESSING_DIRECTORY/005/15_0` || mkdir -p ./ERROR_LOGS/005/5
+~/dtiFitDummy/scripts/flirt.script ./PROCESSING_DIRECTORY/006/5_0.nii.gz ./PROCESSING_DIRECTORY/006/5_1.mat ./PROCESSING_DIRECTORY/006/17_0.nii.gz ~/dtiFitDummy/data/subject006/12_slices.nii.gz `cat ./PROCESSING_DIRECTORY/006/15_0` || mkdir -p ./ERROR_LOGS/006/5
+~/dtiFitDummy/scripts/flirt.script ./PROCESSING_DIRECTORY/007/5_0.nii.gz ./PROCESSING_DIRECTORY/007/5_1.mat ./PROCESSING_DIRECTORY/007/17_0.nii.gz ~/dtiFitDummy/data/subject007/12_slices.nii.gz `cat ./PROCESSING_DIRECTORY/007/15_0` || mkdir -p ./ERROR_LOGS/007/5
+~/dtiFitDummy/scripts/flirt.script ./PROCESSING_DIRECTORY/008/5_0.nii.gz ./PROCESSING_DIRECTORY/008/5_1.mat ./PROCESSING_DIRECTORY/008/17_0.nii.gz ~/dtiFitDummy/data/subject008/12_slices.nii.gz `cat ./PROCESSING_DIRECTORY/008/15_0` || mkdir -p ./ERROR_LOGS/008/5
+~/dtiFitDummy/scripts/flirt.script ./PROCESSING_DIRECTORY/009/5_0.nii.gz ./PROCESSING_DIRECTORY/009/5_1.mat ./PROCESSING_DIRECTORY/009/17_0.nii.gz ~/dtiFitDummy/data/subject009/12_slices.nii.gz `cat ./PROCESSING_DIRECTORY/009/15_0` || mkdir -p ./ERROR_LOGS/009/5
+~/dtiFitDummy/scripts/flirt.script ./PROCESSING_DIRECTORY/010/5_0.nii.gz ./PROCESSING_DIRECTORY/010/5_1.mat ./PROCESSING_DIRECTORY/010/17_0.nii.gz ~/dtiFitDummy/data/subject010/12_slices.nii.gz `cat ./PROCESSING_DIRECTORY/010/15_0` || mkdir -p ./ERROR_LOGS/010/5
+cp ./PROCESSING_DIRECTORY/001/5_1.mat ~/dtiFitDummy/data/subject001/results/M1.mat
+cp ./PROCESSING_DIRECTORY/001/5_0.nii.gz ~/dtiFitDummy/data/subject001/results/Reg4To12.nii.gz
+~/dtiFitDummy/scripts/catXfm.script ./PROCESSING_DIRECTORY/001/8_0.mat ./PROCESSING_DIRECTORY/001/5_1.mat ./PROCESSING_DIRECTORY/001/6_1.mat || mkdir -p ./ERROR_LOGS/001/8
+cp ./PROCESSING_DIRECTORY/002/5_1.mat ~/dtiFitDummy/data/subject002/results/M1.mat
+cp ./PROCESSING_DIRECTORY/002/5_0.nii.gz ~/dtiFitDummy/data/subject002/results/Reg4To12.nii.gz
+~/dtiFitDummy/scripts/catXfm.script ./PROCESSING_DIRECTORY/002/8_0.mat ./PROCESSING_DIRECTORY/002/5_1.mat ./PROCESSING_DIRECTORY/002/6_1.mat || mkdir -p ./ERROR_LOGS/002/8
+cp ./PROCESSING_DIRECTORY/003/5_1.mat ~/dtiFitDummy/data/subject003/results/M1.mat
+cp ./PROCESSING_DIRECTORY/003/5_0.nii.gz ~/dtiFitDummy/data/subject003/results/Reg4To12.nii.gz

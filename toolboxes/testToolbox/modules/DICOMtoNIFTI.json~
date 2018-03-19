@@ -1,0 +1,16 @@
+{
+  "moduleName": "DICOMtoNIFTI",
+  "inputs": [
+    { "name": "fromFile",
+      "format": "DICOM",
+      "required": true
+    }
+  ],
+  "outputs": [
+    { "name": "toFile",
+      "format": "NIfTI",
+      "required": true
+    }
+  ],
+  "enclosedCommand": "sleep 30s ; cp {fromFile} {toFile}" 
+}

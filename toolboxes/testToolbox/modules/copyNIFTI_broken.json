@@ -1,0 +1,16 @@
+{
+  "moduleName": "copyNIFTI_broken",
+  "inputs": [
+    { "name": "fromFile",
+      "format": "NIfTI",
+      "required": true
+    }
+  ],
+  "outputs": [
+    { "name": "toFile",
+      "format": "NIfTI",
+      "required": true
+    }
+  ],
+  "enclosedCommand": "/home/stockman/dtiFitDummy/scripts/copyNIFTI_broken.script {fromFile} {toFile}" 
+}

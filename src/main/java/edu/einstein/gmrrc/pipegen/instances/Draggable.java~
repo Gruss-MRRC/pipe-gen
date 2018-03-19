@@ -1,0 +1,45 @@
+/*
+    Program:  BlockElement.java
+    Author:   Michael Stokman
+              Albert Einstein College of Medicine
+
+ */
+
+package edu.einstein.gmrrc.pipegen.instances;
+
+import java.io.*;
+import java.awt.*;
+import java.awt.geom.*;
+import java.awt.font.*;
+import edu.einstein.gmrrc.pipegen.*;
+import edu.einstein.gmrrc.pipegen.exceptions.*;
+
+
+/**
+ * Defines an abstract base class. Represents building blocks (i.e. elements)
+ * that comprise a PipelineInstance. SourceElements, SinkElements, and 
+ * ModuleElements extend this class.
+ */
+public abstract class BlockElement {
+
+    protected static final Color MODULE_COLOR = new Color(80, 80, 80);
+    protected static final Color MODULE_RIM_COLOR = new Color(80, 80, 80, 100);
+    protected static final Color TAG_COLOR = new Color(50, 50, 50, 20);
+    protected static final int TAG_VERTICAL_PAD = 4;
+    protected static final int TAG_HORIZONTAL_PAD = 8;
+
+    protected ElementPosition position;
+
+    abstract String getBlockName();
+    abstract String toMakefile(File outputDir, DataTableFile table, int rowIndex) throws InvalidMakefileException;
+
+    abstract String getInputNames(File outputDir, DataTableFile table, int rowIndex);
+    abstract String getOutputNames(File outputDir, DataTableFile table, int rowIndex);
+    abstract String getOutputFileName(int outputIndex, File outputDir, DataTableFile table, int rowIndex);
+    abstract String getInputFileName(int inputIndex, File outputDir, DataTableFile table, int rowIndex);
+
+    public void move(int deltaX, int deltaY) {
+        position.move(deltaX, deltaY);
+    }
+
+}

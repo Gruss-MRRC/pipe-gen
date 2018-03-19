@@ -1,0 +1,16 @@
+{
+  "moduleName": "getDOF_temp",
+  "inputs": [
+    { "name": "target",
+      "format": "NIfTI",
+      "required": true
+    }
+  ],
+  "outputs": [
+    { "name": "DOF",
+      "format": "arg",
+      "required": true
+    }
+  ],
+  "enclosedCommand": "~/dtiFitDummy/scripts/getDOF_temp.script {DOF} {target}" 
+}

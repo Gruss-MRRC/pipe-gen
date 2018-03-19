@@ -1,0 +1,53 @@
+{
+  "workflowName": "copyFiles",
+  "sources": [
+    {
+      "id": 0,
+      "dataTableField": "textFile",
+      "output": {
+        "name": "",
+        "format": "text",
+        "required": true
+      },
+      "position": {
+        "X": 20,
+        "Y": 20
+      }
+    }
+  ],
+  "sinks": [
+    {
+      "id": 0,
+      "dataTableField": "outputName",
+      "input": {
+        "name": "",
+        "format": "text",
+        "required": true
+      },
+      "position": {
+        "X": 60,
+        "Y": 60
+      }
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "moduleName": "cp",
+      "position": {
+        "X": 40,
+        "Y": 40
+      }
+    }
+  ],
+  "connections": [
+    {
+      "start": "sources[0]",
+      "stop": "modules[0].fromText"
+    },
+    {
+      "start": "modules[0].toText",
+      "stop": "sinks[0]"
+    }
+  ]
+}

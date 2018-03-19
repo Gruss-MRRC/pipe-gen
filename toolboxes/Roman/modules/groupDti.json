@@ -1,0 +1,24 @@
+{
+  "moduleName": "group DTI",
+  "inputs": [
+    { "name": "DTI image",
+      "format": "NIfTI",
+      "required": true
+    },
+    { "name": "bvalues",
+      "format": "text",
+      "required": true
+    },
+    { "name": "bvectors",
+      "format": "text",
+      "required": true
+    }
+  ],
+  "outputs": [
+    { "name": "DTI group",
+      "format": "DTI raw",
+      "required": true
+    }
+  ],
+  "enclosedCommand": "/gmrrc/ALLSHARE/EAS/SOFTWARE/SCRIPTS/dtiFit.script {DTIMaps} {EPIDTI} {bvalues} {bvectors}" 
+}

@@ -1,0 +1,13 @@
+cp: cp: cannot stat `./PROCESSING_DIRECTORY/001/5_0.nii.gz'cp: cannot stat `./PROCESSING_DIRECTORY/001/5_1.mat': No such file or directorycannot stat `./PROCESSING_DIRECTORY/002/5_1.mat': No such file or directory
+: No such file or directory
+cp: 
+make: cannot stat `./PROCESSING_DIRECTORY/002/5_0.nii.gz'cp: cannot stat `./PROCESSING_DIRECTORY/003/5_1.mat'*** [id002_sink12] Error 1
+cp: cannot stat `./PROCESSING_DIRECTORY/003/5_0.nii.gz': No such file or directory: No such file or directory
+make: *** Waiting for unfinished jobs....
+: No such file or directory
+
+make: *** [id001_sink12] Error 1
+make: *** [id001_sink13] Error 1
+make: *** [id002_sink13] Error 1
+make: *** [id003_sink12] Error 1
+make: *** [id003_sink13] Error 1

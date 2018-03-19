@@ -1,0 +1,16 @@
+{
+  "moduleName": "copyNIFTI",
+  "inputs": [
+    { "name": "fromFile",
+      "format": "NIfTI",
+      "required": true
+    }
+  ],
+  "outputs": [
+    { "name": "toFile",
+      "format": "NIfTI",
+      "required": true
+    }
+  ],
+  "enclosedCommand": "cp {fromFile} {toFile}" 
+}

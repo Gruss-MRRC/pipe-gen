@@ -1,0 +1,53 @@
+{
+  "formatDefs": [
+    {
+      "file": {
+        "color": [ 0, 0, 0 ],
+        "suffix": ""
+      }
+    },
+    {
+      "text": {
+        "color": [ 150, 0, 0 ],
+        "suffix": ".txt",
+        "extends": "file"
+      }
+    },
+    {
+      "csv": {
+        "color": [ 205, 0, 0 ],
+        "suffix": ".csv",
+        "extends": "text"
+      }
+    },
+    {
+      "json": {
+        "color": [ 255, 0, 0 ],
+        "suffix": ".json",
+        "extends": "text"
+      }
+    },
+    {
+      "NIfTI": {
+        "color": [ 136, 136, 255 ],
+        "suffix": ".nii.gz",
+        "extends": "file"
+      }
+    },
+    {
+      "fMRI": {
+        "color": [ 0, 0, 255 ],
+        "suffix": ".nii.gz",
+        "extends": "NIfTI"
+      }
+    },
+    {
+      "DICOM": {
+        "color": [ 46, 150, 87 ],
+        "suffix": ".dcm",
+        "extends": "file"
+      }
+    }
+
+  ]
+}

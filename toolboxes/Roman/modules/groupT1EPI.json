@@ -1,0 +1,16 @@
+{
+  "moduleName": "group T1WEPI",
+  "inputs": [
+    { "name": "EPI",
+      "format": "NIfTI",
+      "required": true
+    }
+  ],
+  "outputs": [
+    { "name": "T1WEPI group",
+      "format": "T1WEPI",
+      "required": true
+    }
+  ],
+  "enclosedCommand": "/gmrrc/ALLSHARE/EAS/SOFTWARE/SCRIPTS/dtiFit.script {DTIMaps} {EPIDTI} {bvalues} {bvectors}" 
+}

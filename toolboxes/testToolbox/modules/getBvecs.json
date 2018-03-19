@@ -1,0 +1,16 @@
+{
+  "moduleName": "getBvecs",
+  "inputs": [
+    { "name": "procpar",
+      "format": "text",
+      "required": true
+    }
+  ],
+  "outputs": [
+    { "name": "bvectors",
+      "format": "text",
+      "required": true
+    }
+  ],
+  "enclosedCommand": "~/dtiFitDummy/scripts/getBvecs.script {bvectors} {procpar}" 
+}

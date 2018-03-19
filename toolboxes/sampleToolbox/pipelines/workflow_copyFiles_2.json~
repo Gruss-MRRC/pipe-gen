@@ -1,0 +1,81 @@
+{
+  "workflowName": "copyFiles",
+  "sinks": [
+    {
+      "position": {
+        "Y": 214,
+        "X": 246
+      },
+      "id": 2,
+      "input": {
+        "name": "",
+        "format": "text",
+        "required": true
+      },
+      "dataTableField": "A text sink"
+    },
+    {
+      "position": {
+        "Y": 211,
+        "X": 475
+      },
+      "id": 3,
+      "input": {
+        "name": "",
+        "format": "csv",
+        "required": true
+      },
+      "dataTableField": "A csv sink"
+    }
+  ],
+  "connections": [
+    {
+      "stop": "modules[2].fromText",
+      "start": "sources[2]"
+    },
+    {
+      "stop": "sinks[2]",
+      "start": "modules[2].toText"
+    },
+    {
+      "stop": "sinks[3]",
+      "start": "sources[3]"
+    }
+  ],
+  "modules": [{
+    "position": {
+      "Y": 108,
+      "X": 144
+    },
+    "id": 2,
+    "moduleName": "cp"
+  }],
+  "sources": [
+    {
+      "position": {
+        "Y": 9,
+        "X": 51
+      },
+      "id": 2,
+      "output": {
+        "name": "",
+        "format": "text",
+        "required": true
+      },
+      "dataTableField": "A text source"
+    },
+    {
+      "position": {
+        "Y": 24,
+        "X": 287
+      },
+      "id": 3,
+      "output": {
+        "name": "",
+        "format": "csv",
+        "required": true
+      },
+      "dataTableField": "A csv source"
+    }
+  ]
+}

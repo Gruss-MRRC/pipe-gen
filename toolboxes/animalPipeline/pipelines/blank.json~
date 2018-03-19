@@ -1,0 +1,13 @@
+{
+  "workflowName": "copyFiles",
+  "sinks": [],
+  "connections": [],
+  "modules": [{
+    "position": {
+      "Y": 40,
+      "X": 40
+    },
+    "moduleName": "cp"
+  }],
+  "sources": []
+}

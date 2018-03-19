@@ -1,0 +1,16 @@
+{
+  "moduleName": "compressNifti",
+  "inputs": [
+    { "name": "uncompressed",
+      "format": "NIfTI_uncompress",
+      "required": true
+    }
+  ],
+  "outputs": [
+    { "name": "compressed",
+      "format": "NIfTI",
+      "required": true
+    }
+  ],
+  "enclosedCommand": "/gmrrc/ALLSHARE/94TPIPELINE/dtifit/compressNifti.script {compressed} {uncompressed}"
+}

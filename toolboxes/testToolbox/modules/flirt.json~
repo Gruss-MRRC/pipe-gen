@@ -1,0 +1,28 @@
+{
+  "moduleName": "flirt",
+  "inputs": [
+    { "name": "input",
+      "format": "NIfTI",
+      "required": true
+    },
+    { "name": "target",
+      "format": "NIfTI",
+      "required": true
+    },
+    { "name": "DOF",
+      "format": "arg",
+      "required": true
+    }
+  ],
+  "outputs": [
+    { "name": "registered",
+      "format": "NIfTI",
+      "required": true
+    },
+    { "name": "matrix",
+      "format": "matrix",
+      "required": true
+    }
+  ],
+  "enclosedCommand": "/gmrrc/ALLSHARE/94TPIPELINE/dtifit/flirt.script {registered} {matrix} {input} {target} {DOF}" 
+}

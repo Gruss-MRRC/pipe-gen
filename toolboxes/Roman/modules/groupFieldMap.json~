@@ -1,0 +1,24 @@
+{
+  "moduleName": "group FieldMap",
+  "inputs": [
+    { "name": "DTIEPI",
+      "format": "NIfTI",
+      "required": true
+    },
+    { "name": "bvalues",
+      "format": "text",
+      "required": true
+    },
+    { "name": "bvectors",
+      "format": "text",
+      "required": true
+    }
+  ],
+  "outputs": [
+    { "name": "DTIMaps",
+      "format": "NIfTI",
+      "required": true
+    }
+  ],
+  "enclosedCommand": "/gmrrc/ALLSHARE/EAS/SOFTWARE/SCRIPTS/dtiFit.script {DTIMaps} {EPIDTI} {bvalues} {bvectors}" 
+}

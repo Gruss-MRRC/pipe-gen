@@ -1,0 +1,14 @@
+cp ./PROCESSING_DIRECTORY/001/3_0.nii.gz ~/dtiFitDummy/data/subject001/results/FA.nii.gz
+cp ./PROCESSING_DIRECTORY/001/3_1.nii.gz ~/dtiFitDummy/data/subject001/results/L1.nii.gz
+cp ./PROCESSING_DIRECTORY/001/3_2.nii.gz ~/dtiFitDummy/data/subject001/results/L2.nii.gz
+cp ./PROCESSING_DIRECTORY/001/3_3.nii.gz ~/dtiFitDummy/data/subject001/results/L3.nii.gz
+cp ./PROCESSING_DIRECTORY/001/3_4.nii.gz ~/dtiFitDummy/data/subject001/results/MD.nii.gz
+cp ./PROCESSING_DIRECTORY/001/3_5.nii.gz ~/dtiFitDummy/data/subject001/results/MO.nii.gz
+cp ./PROCESSING_DIRECTORY/001/3_6.nii.gz ~/dtiFitDummy/data/subject001/results/S0.nii.gz
+cp ./PROCESSING_DIRECTORY/001/3_7.nii.gz ~/dtiFitDummy/data/subject001/results/V1.nii.gz
+cp ./PROCESSING_DIRECTORY/001/3_8.nii.gz ~/dtiFitDummy/data/subject001/results/V2.nii.gz
+cp ./PROCESSING_DIRECTORY/001/3_9.nii.gz ~/dtiFitDummy/data/subject001/results/V3.nii.gz
+sss ~/dtiFitDummy/data/subject001/4_slices.nii.gz ./PROCESSING_DIRECTORY/001/10_0.nii.gz || mkdir -p ./ERROR_LOGS/001/10
+ln -sf ../.././PROCESSING_DIRECTORY/001/10_0.nii.gz ./PROCESSING_DIRECTORY/001/5_in0.nii.gz
+~/dtiFitDummy/scripts/flirt.script ./PROCESSING_DIRECTORY/001/5_0.nii.gz ./PROCESSING_DIRECTORY/001/5_1.mat ./PROCESSING_DIRECTORY/001/10_0.nii.gz ~/dtiFitDummy/data/subject001/12_slices.nii.gz `cat ./PROCESSING_DIRECTORY/001/15_0` || mkdir -p ./ERROR_LOGS/001/5
+cp ./PROCESSING_DIRECTORY/001/5_1.mat ~/dtiFitDummy/data/subject001/results/M1.mat

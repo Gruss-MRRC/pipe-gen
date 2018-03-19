@@ -1,0 +1,16 @@
+{
+  "moduleName": "compressNifti",
+  "inputs": [
+    { "name": "uncompressed",
+      "format": "NIfTI_uncompress",
+      "required": true
+    }
+  ],
+  "outputs": [
+    { "name": "compressed",
+      "format": "NIfTI",
+      "required": true
+    }
+  ],
+  "enclosedCommand": "~/dtiFitDummy/scripts/compressNifti.script {compressed} {uncompressed}"
+}

@@ -1,0 +1,16 @@
+{
+  "moduleName": "dtiFit",
+  "inputs": [
+    { "name": "EPI",
+      "format": "NIfTI",
+      "required": true
+    }
+  ],
+  "outputs": [
+    { "name": "T1W EPI",
+      "format": "T1W EPI",
+      "required": true
+    }
+  ],
+  "enclosedCommand": "/gmrrc/ALLSHARE/EAS/SOFTWARE/SCRIPTS/dtiFit.script {DTIMaps} {EPIDTI} {bvalues} {bvectors}" 
+}

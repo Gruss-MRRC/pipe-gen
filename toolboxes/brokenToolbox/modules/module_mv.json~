@@ -1,0 +1,18 @@
+{
+  "moduleName": "mv",
+  "inputs": [
+    { "fromText": {
+      "format": "text", 
+      "required": true
+      }
+    }
+  ],
+  "outputs": [
+    { "toText": {
+      "format": "text",
+      "required": true
+      }
+    }
+  ],
+  "enclosedCommand": "mv {fromText} {toText}" 
+}
