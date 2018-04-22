@@ -1,7 +1,0 @@
-id | inputDICOM  | outputNIFTI
-0  | dicom_0.dcm | output_1.nii.gz
-1  | dicom_1.dcm | output_0.nii.gz
-2  | dicom_2.dcm | output_2.nii.gz
-3  | dicom_3.dcm | output_3.nii.gz
-4  | dicom_4.dcm | output_4.nii.gz
-5  | dicom_5.dcm | output_5.nii.gz
