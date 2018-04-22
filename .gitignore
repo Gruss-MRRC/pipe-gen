@@ -1,2 +1,6 @@
 # Ignore the build directory
 build/
+
+# Ignore gradle internals directory
+.gradle/
+

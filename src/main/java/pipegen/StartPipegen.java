@@ -13,7 +13,7 @@
 
  */
 
-//package edu.einstein.gmrrc.rheator;
+package pipegen;
 
 import java.io.*;
 
