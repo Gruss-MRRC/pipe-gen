@@ -11,14 +11,14 @@
 SRC = ./src/
 BUILD = ./build/classes/
 
-PIPEGEN_SRC = ./src/main/java/edu/einstein/gmrrc/pipegen/
+PIPEGEN_SRC = ./src/main/java/pipegen/
 DEFINE_SRC = $(PIPEGEN_SRC)definitions/
 DEFINITION_SRC = $(PIPEGEN_SRC)definitions/
 INSTANCE_SRC = $(PIPEGEN_SRC)instances/
 EXCEPTION_SRC = $(PIPEGEN_SRC)exceptions/
 GUI_SRC = $(PIPEGEN_SRC)gui/
 
-PIPEGEN_BUILD = ./build/edu/einstein/gmrrc/pipegen/
+PIPEGEN_BUILD = ./build/pipegen/
 DEFINITION_BUILD = $(PIPEGEN_BUILD)definitions/
 INSTANCE_BUILD = $(PIPEGEN_BUILD)instances/
 EXCEPTION_BUILD = $(PIPEGEN_BUILD)exceptions/
