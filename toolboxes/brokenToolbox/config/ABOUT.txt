@@ -1,1 +1,0 @@
-This is the second dummy toolbox for pipe-gen. Use Sample Toolbox instead.
