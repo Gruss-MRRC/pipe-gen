@@ -26,8 +26,7 @@ import pipegen.gui.*;
 
 class StartPipegen {
 
-	private static final File TOOLBOX_DIR = new File("./toolboxes/");
-	//private static final File PIPELINE_FILE = new File("/home/mstockma/pipe-gen/toolboxes/sampleToolbox/workflows/workflow_copyFiles.json");
+	private static final File TOOLBOX_DIR = new File("./data/toolboxes/");
 
     public static void main(String[] argv) {
 
