@@ -1,7 +1,0 @@
-id | textFile        outputName
-0  | textFile_0.txt | outputTextFile_1.txt
-1  | textFile_1.txt | outputTextFile_0.txt
-2  | textFile_2.txt | outputTextFile_2.txt
-3  | textFile_3.txt | outputTextFile_3.txt
-4  | textFile_4.txt | outputTextFile_4.txt
-5  | textFile_5.txt | outputTextFile_5.txt
