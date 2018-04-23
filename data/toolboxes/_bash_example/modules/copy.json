@@ -1,0 +1,16 @@
+{
+  "moduleName": "copy (cp)",
+  "inputs": [
+    { "name": "fromFile",
+      "format": "file",
+      "required": true
+    }
+  ],
+  "outputs": [
+    { "name": "toFile",
+      "format": "file",
+      "required": true
+    }
+  ],
+  "enclosedCommand": "cp -f {fromFile} {toFile}" 
+}
