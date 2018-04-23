@@ -30,7 +30,7 @@ dependencies {
     compile 'org.json:json:20180130'
 }
 
-// Declare how to create the jarfile 'space-ranger-2.jar'
+// Declare how to create the jarfile 'pipe-gen.jar'
 jar {
     baseName = 'pipe-gen'
 
