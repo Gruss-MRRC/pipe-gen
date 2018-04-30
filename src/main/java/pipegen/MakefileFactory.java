@@ -1,6 +1,6 @@
 /*
     Program:  MakefileFactory.java
-    Author:   Michael Stokman
+    Author:   Michael Stockman
               Albert Einstein College of Medicine
 
     Purpose:  This factory class composes the makefile content and writes it to 

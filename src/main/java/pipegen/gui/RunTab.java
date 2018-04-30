@@ -1,6 +1,6 @@
 /*
     Program:  RunTab.java
-    Author:   Michael Stokman
+    Author:   Michael Stockman
               Albert Einstein College of Medicine
 
     Purpose:  Represents the pipe-gen GUI tab pane labeled 'Run'.

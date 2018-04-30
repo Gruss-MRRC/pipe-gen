@@ -1,6 +1,6 @@
 /*
     Program:  ElementPosition.java
-    Author:   Michael Stokman
+    Author:   Michael Stockman
               Albert Einstein College of Medicine
 
  */

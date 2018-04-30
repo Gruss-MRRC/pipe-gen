@@ -1,6 +1,6 @@
 /*
     Program:  ErrorTreeVisitor.java
-    Author:   Michael Stokman
+    Author:   Michael Stockman
               Albert Einstein College of Medicine
 
     Purpose:  This class implements the VISITOR PATTERN to traverse a graph of 

@@ -1,6 +1,6 @@
 /*
     Program:  ParameterDef.java
-    Author:   Michael Stokman
+    Author:   Michael Stockman
               Albert Einstein College of Medicine
 
     Purpose:  This class represents a parameter definition. It provides 

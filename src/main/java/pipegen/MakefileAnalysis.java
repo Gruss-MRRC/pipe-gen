@@ -1,6 +1,6 @@
 /*
     Program:  MakefileAnalysis.java
-    Author:   Michael Stokman
+    Author:   Michael Stockman
               Albert Einstein College of Medicine
 
     Purpose:  This class represents an analysis to conduct using a makefile.

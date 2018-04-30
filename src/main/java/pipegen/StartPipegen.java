@@ -1,6 +1,6 @@
 /*
     Program:  StartPipegen.java
-    Author:   Michael Stokman
+    Author:   Michael Stockman
               Albert Einstein College of Medicine
 
     Purpose:  This the main executable file for pipe-gen.

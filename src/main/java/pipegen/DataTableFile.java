@@ -1,6 +1,6 @@
 /*
     Program:  DataTableFile.java
-    Author:   Michael Stokman
+    Author:   Michael Stockman
               Albert Einstein College of Medicine
 
     Purpose:  This class extends File representing files containing tabular data

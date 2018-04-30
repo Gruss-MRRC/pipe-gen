@@ -1,6 +1,6 @@
 /*
     Program:  ToolboxDef.java
-    Author:   Michael Stokman
+    Author:   Michael Stockman
               Albert Einstein College of Medicine
 
     Purpose:  This class represents a toolbox definition. It provides mechanisms

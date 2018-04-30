@@ -1,6 +1,6 @@
 /*
     Program:  InvalidWorkflowDefException.java
-    Author:   Michael Stokman
+    Author:   Michael Stockman
               Albert Einstein College of Medicine
 
     Purpose:  This exception should be thrown in response to an unusable 
